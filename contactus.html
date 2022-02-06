@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact Us</title>
+
+<style>
+	* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+
+</head>
+<body>
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h1><a href="index.html"><img src="logo2 (2).png" style="width: 110px; height: 100px;"></a></h1> 
+    <h2>Contact Us</h2>
+    <p>Leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="contact.png" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="location">Location</label>
+        <select id="location" name="location">
+          <option value="kuala lumpur">Kuala Lumpur</option>
+          <option value="melaka">Melaka</option>
+          <option value="perak">Perak</option>
+          <option value="johor">Johor</option>
+          <option value="terengganu">Terengganu</option>
+          <option value="Kelantan">Kelantan</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        </form>
+
+        <div><button onclick="submit()" style="background-color: #04AA6D;color: white; padding: 12px 20px; border: none; cursor: pointer;">Submit</button>
+<script>
+  function submit()
+  {
+    alert("Your Message has been Submit")
+  }
+</script>
+
+</div>
+</div>
+</div>
+</div>     
+
+</body>
+</html>

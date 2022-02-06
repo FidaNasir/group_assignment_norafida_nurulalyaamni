@@ -1,0 +1,229 @@
+<!DOCTYPE html>                                           
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+	<title>FA Jewelry.co</title>
+
+<style> 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *:before,*:after{
+  box-sizing: border-box;
+} 
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ac7339;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #dfbf9f;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #86592d;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.topnav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.header .row{
+  margin-top: 70px;
+}
+.categories{
+  margin: 60px 0;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title{
+  text-align: center;
+  margin: 0 auto 30px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+.title::after{
+  content: '';
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.col-3{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+.col-3:hover{
+  transform: translateY(-15px);
+}
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+img{
+  border-radius: 4px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background-color: #474e5d;
+  color: white;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+<body bgcolor="WHITE">
+<div style="text-align: center;">
+<h1><img src="logo.png" style="width: 210px; height: 200px;"></h1>  
+<p style="font-family: Baskerville Old Face; font-size: 35px; color: #734d26;">- Jewelry Always Fits - </p>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="collection.html">Our Collection</a>  
+  <a href="aboutuspage.html">About Us</a>
+  <a href="contactus.html">Contact Us</a>
+
+  <div class="search-container">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+</div>
+
+<div style="background-image: url(jwlry.png); background-attachment: fixed;">
+<br>
+<br>
+<br>
+<h1 style="font-size: 70px;">Give Your Look<br>A New Style!</h1>
+<br>
+<p style="font-size: 30px; font-family: century gothic;">Wear a fabulous smile, great jewelry and know that<br>
+you are totally and utterly in control.</p>
+<p style="font-size: 20px; font-family: century gothic;">-Donatella Versace-</p>
+<p></p>
+<br>
+<br>
+</div>	 
+
+<div class="categories">
+  <div class="container">
+<h2 class="title">Our Collections</h2>
+ <div class="row">
+
+    <div class="column">
+     <div class="col-3"><img src="neck.jpg" width="300px" height="400px"><h3>Necklace</h3></div>
+    </div>
+
+    <div class="column">
+     <div class="col-3"><img src="brace.jpg" width="300px" height="400px"><h3>Bracelet</h3></div>
+    </div>
+
+    <div class="column">
+     <div class="col-3"><img src="ring.jpeg" width="300px" height="400px"><h3>Ring</h3></div>
+    </div>
+
+   </div>
+  </div>
+</div>
+</div>
+
+<footer>
+  <p class="copyright">FA Jewelry.CO @ 2021</p>
+</footer> 
+
+
+</body>
+</html>

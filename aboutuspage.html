@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>About Us</title>	
+
+<style>
+	body{
+		font-family: times new roman ;
+		margin: 0;
+	}
+*{
+		box-sizing: border-box;
+	}
+*, *:before,*:after{
+	box-sizing: inherit;
+} 
+
+.about-section {
+ text-align: center;
+ background-color: #474e5d;
+ color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 94.2%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container{
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+}
+
+footer {
+	width: 100%;
+  text-align: center;
+  padding: 15px;
+  background-color: #474e5d;
+  color: white;
+  font-size: 20px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+
+<body bgcolor="#ecd9c6">	
+
+<h1 style="text-align: center;"><a href="index.html"><img src="logo2 (2).png" style="width: 110px; height: 100px;"></a></h1> 
+
+<div class="about-section">
+	<h1>About Us</h1>
+	<p style="font-size: 20px;">FA Jewelry.CO was created out of a need for on trend fashion jewellery at ready-to-wear. Our trend spotting departments worldwide take inspiration from couture runways and current street style to deliver new, must-have style to our customers</p>
+	<p style="font-size: 20px;">We are a fashion jewellery brand that caters to everyone. We give exceptional customer service and apply our core belief, <i>jewellery always fits</i></p>
+	<h1>Our Mission</h1>
+	<p style="font-size: 20px;">To bring brilliantly affordable, on trend jewellery to the WORLD, whilst delighting our customers with our commitment to continually improve your experience</p>
+</div>	
+
+<h2 style="text-align:center; font-size: 30px;">Our Team</h2>
+
+<div class="container">
+<div class="row">
+ <div class="column">
+  <div class="card">
+  <img src="fida.jpg" style="width:100%">
+  <h1>Norafida</h1>
+  <p class="title">CEO & Founder, FA Jewelry.CO</p>
+  <p>fidanasir0582@gmail.com</p>
+  <a href="contactus.html"><p><button>Contact</button></p></a>
+ </div>
+</div>
+
+ <div class="column">
+  <div class="card">
+  <img src="alya.jpg" style="width:100%">
+  <h1>Nurul Alya</h1>
+  <p class="title">Art Director, FA Jewelry.CO</p>
+  <p>nrlalya289@gmail.com</p>
+  <a href="contactus.html"><p><button>Contact</button></p></a>
+  </div>
+ </div>
+</div>
+</div>
+
+<footer>
+  <p class="copyright">FA Jewelry.CO @ 2021</p>
+</footer>
+
+</body>
+</html>

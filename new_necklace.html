@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<style>  * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+*, *:before,*:after{
+  box-sizing: inherit;
+} 
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  background-color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.price {
+  color: grey;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 95%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  margin-bottom: 16px;
+  width: 23%;
+  padding: 0 10px;
+  height: 23%;
+}
+.row{
+  float: inherit;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background-color: #474e5d;
+  color: white;
+  font-size: 20px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 70%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+</style>
+<body style="background-color: #80d4ff;">
+
+<h1 style="text-align: center;"><a href="collection.html"><img src="logo2 (2).png" style="width: 230px; height: 200px;"></a></h1> 
+<h1 style="background-color: black; text-align: center; font-family: georia; color: lightgray; font-size: 38px;">Necklaces Collection.</h1>
+
+<div class="row">
+<div class="column">
+  <div class="card">
+    <img src="necklace1.jfif" alt="necklace" style="width: 100%">
+		<div class="container">
+		<h4>Big Flower Retro Gold Necklace</h4>
+		<p class="price">RM15</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>  
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="necklace2.jfif" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>White Pearl Circle Necklace</h4>
+		<p class="price">RM12</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>  
+
+<div class="column">
+  <div class="card">
+    <img src="necklace3.jfif" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Necklace Butterfly Sweet Simple</h4>
+		<p class="price">RM12</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+   <img src="necklace10.jpg" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Horizontal D- Baguatte Necklace</h4>
+		<p class="price">RM13</p>
+    <p><a href=""><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>
+</div>
+
+<div class="row">
+<div class="column">
+  <div class="card">
+    <img src="necklace11.jpg" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Leaf RoseGold Necklace</h4>
+		<p class="price">RM10</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>
+<div class="column">
+  <div class="card">
+   <img src="necklace4.jfif" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Shell Retro Metal Necklace</h4>
+		<p class="price">RM15</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>
+<div class="column">
+  <div class="card">
+    <img src="necklace5.jfif" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Multi-Layer Flower Necklace</h4>
+		<p class="price">RM15</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="necklace6.jfif" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Round White Diamond Necklace</h4>
+		<p class="price">RM12</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>
+
+</div>
+
+<div class="row">
+
+
+<div class="column">
+  <div class="card">
+    <img src="necklace12.jfif" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Necklace Rose Sweet Simple</h4>
+		<p class="price">RM12</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    	<img src="necklace13.jpg" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Flower Center Square Necklace</h4>
+		<p class="price">RM12</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+   <img src="necklace7.jfif" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Layer White Pearl Necklace</h4>
+		<p class="price">RM13</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>  
+<div class="column">
+  <div class="card">
+   <img src="necklace8.jfif" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Crown Gold Silver Necklace</h4>
+		<p class="price">RM15</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>
+</div>
+
+<div class="row">
+  
+
+<div class="column">
+  <div class="card">
+   <img src="necklace9.png" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Interlocking Circles Necklace</h4>
+		<p class="price">RM12</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="necklace14.jpg" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Gold Small Chain Necklace </h4>
+		<p class="price">RM10</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    	<img src="necklace15.jpg" alt="necklace" style="width:100%">
+		<div class="container">
+		<h4>Princess Crown Key Necklace</h4>
+		<p class="price">RM13</p>
+    <p><a href="check_out.html"><button class="button">Add to Cart</button></a></p>
+    </div>  
+  </div>
+</div>  
+</div> 
+
+<footer>
+  <p class="copyright">FA Jewelry.CO @ 2021</p>
+</footer> 
+
+</body>
+</html>
